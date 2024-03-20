@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url(../fonts/Montserrat/Montserrat-Bold.woff2);
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url(../fonts/Montserrat/Montserrat-Medium.woff2);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url(../fonts/Montserrat/Montserrat-Regular.woff2);
+  font-weight: 500;
+}
+
+* {
+  margin: 0;
+  text-transform: capitalize;
+}
+
+:root {
+  --primary-color: #23283b;
+  --secondary-color: #181a27;
+  --font-color: #b4b4b4;
+  --dark-color: #000;
+  --light-color: #fff;
+  --primary-filter: invert(76%) sepia(72%) saturate(966%) hue-rotate(340deg)
+    brightness(101%) contrast(107%);
+  --seconday-filter: invert(100%) sepia(2%) saturate(274%) hue-rotate(97deg)
+    brightness(109%) contrast(100%);
+}
